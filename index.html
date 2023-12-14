@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whwther app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="search_box">
+                <input type="text" id="input" class="inputBox" placeholder="Enter your location">
+
+                <button class="fa-solid fa-magnifying-glass" id="search_button"> </button>
+            </div>
+        </div>
+        <div class="location-not-found">
+            <h1>Sorry, Location not found!!!</h1>
+            <img src="ASSEST/404.png" alt="404 Error">
+        </div>
+
+            <div class="whwther-body">
+                <img src="ASSEST/cloud.png" alt="cloud image" class="whather_image">
+                <div class="whether_box">
+                    <p class="temprature"> 0 <sup>°C</sup></p>
+                    <p class="discription"> light rain</p>
+                </div>
+
+               <div class="whether_details">
+                <div class="humidity">
+                    <i class="fa-regular fa-droplet-percent"></i>
+                    <div class="text">
+                        <span id="humidity">45%</span>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="wind_speed">12km/h</span>
+                        <p>wind</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/f191163e95.js" crossorigin="anonymous"></script>
+<script src="whwther.js"></script>
+
+</html>
+
